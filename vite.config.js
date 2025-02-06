@@ -1,5 +1,3 @@
-import restart from 'vite-plugin-restart'
-
 export default {
     root: '/', // Sources files (typically where index.html is)
     publicDir: '/public/', // Path from "root" to static assets (files that are served as they are)
@@ -14,8 +12,4 @@ export default {
         emptyOutDir: true, // Empty the folder first
         sourcemap: true // Add sourcemap
     },
-    plugins:
-    [
-        restart({ restart: [ '/public/**', ] }) // Restart server on static file change
-    ],
 }
