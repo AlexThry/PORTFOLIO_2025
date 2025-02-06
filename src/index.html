@@ -19,11 +19,7 @@
 			name="framer-search-index"
 			content="https://framerusercontent.com/sites/28CluxRhrkyva5QZRLL1NN/searchIndex-4LE-Tr6yVZa4.json"
 		/>
-		<link
-			href="/A.png"
-			rel="icon"
-			media="(prefers-color-scheme: light)"
-		/>
+		<link href="/A.png" rel="icon" media="(prefers-color-scheme: light)" />
 		<link
 			href="https://framerusercontent.com/sites/icons/default-favicon-dark.v1.png"
 			rel="icon"
@@ -80,6 +76,16 @@
 				margin: 0;
 				padding: 0;
 				box-sizing: border-box;
+			}
+			*::-webkit-scrollbar {
+				display: none;
+			}
+			* {
+				/* Pour Firefox */
+				scrollbar-width: none;
+
+				/* Pour IE 10+ */
+				-ms-overflow-style: none;
 			}
 			:root {
 				-webkit-font-smoothing: antialiased;
