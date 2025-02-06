@@ -1,3 +1,0 @@
-date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
-13:19:22	324578/324578	---M-Z	200	added ('OK')	text/html	etag:%2236608d2c29a047c8d2e33b684cfb4cd8%22	https://alexisthierry.framer.website/	/Users/alexisthierry/websites/cv/alexisthierry.framer.website/index.html	(from )
-13:19:22	101/101	---M-Z	200	added ('OK')	text/plain	etag:%22ad83f73f547a802c794df44f0d1d6a49%22	https://alexisthierry.framer.website/robots.txt		(from )
